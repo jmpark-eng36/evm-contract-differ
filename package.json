@@ -1,0 +1,11 @@
+{
+  "name": "evm-contract-differ",
+  "version": "0.1.0",
+  "description": "Diff deployed EVM contract bytecode and detect proxy upgrades",
+  "main": "src/index.js",
+  "scripts": {"start": "node src/index.js", "test": "node test/proxy.test.js"},
+  "keywords": ["evm","bytecode","diff","proxy","security"],
+  "author": "James Park",
+  "license": "MIT",
+  "dependencies": {"ethers": "^6.9.0", "chalk": "^4.1.2", "commander": "^11.1.0"}
+}
