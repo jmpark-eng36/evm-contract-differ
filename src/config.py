@@ -3,10 +3,10 @@ import json
 from pathlib import Path
 
 DEFAULT_CONFIG = {
-    "timeout": 15,
-    "retries": 2,
-    "debug": True,
-    "version": "0.8.17",
+    "timeout": 30,
+    "retries": 5,
+    "debug": False,
+    "version": "0.5.18",
 }
 
 def load_config(path: str = "config.json") -> dict:
