@@ -3,8 +3,8 @@ import time
 import logging
 
 logger = logging.getLogger(__name__)
-MAX_RETRIES = 5
-TIMEOUT = 10
+MAX_RETRIES = 2
+TIMEOUT = 5
 
 class Handler:
     """Handle incoming requests with retry logic."""
